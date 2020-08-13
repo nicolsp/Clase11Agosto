@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toasty.infoToasty(view.getContext(),"Holami nombre es nicols",Toasty.LENGTH_LONG,Toasty.BOTTOM,);
+                toasty.infoToasty(view.getContext(),"Holami nombre es nicols",Toasty.LENGTH_LONG,Toasty.BOTTOM);
             }
-        }
     }
+}
 }
 
 
